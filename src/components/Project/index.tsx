@@ -19,20 +19,28 @@ interface ReposType {
   description: string;
   html_url: string;
   homepage: string;
+  license: null | {
+    key?:string
+  }
 }
 
 export const Project = (): JSX.Element => {
   const [repositories, setRepositories] = useState<ReposType[]>([]);
-
+  
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetch(
         `https://api.github.com/users/${userData.githubUser}/repos?sort=created&direction=desc`
       );
-
+      
       const json = await data.json();
-
-      setRepositories(json);
+      const filtered = json.filter((repo: ReposType) =>{
+        
+        if(repo.license?.key){
+          return repo
+        }
+      })
+      setRepositories(filtered);
 
       return json;
     };

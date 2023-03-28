@@ -45,6 +45,7 @@ export const Footer = (): JSX.Element => {
             <FaInstagram />
           </Button>
           <Button
+            disable={true}
             className="facebook"
             type="circle"
             as="a"
