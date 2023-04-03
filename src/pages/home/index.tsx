@@ -44,28 +44,29 @@ export const Home = (): JSX.Element => {
                 width={"120px"}
                 height={"120px"}
               />
-              <Text color="grey4" type="heading4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4" type="heading4">Olá, me chamo {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
               <Text as="span" type="heading1" color="brand1">
-                Solving Problems
+                Resolver Problemas
               </Text>{" "}
-                is my life{" "}
+                é meu{" "}
               <Text as="span" type="heading1" color="brand1">
-                Project
+                Projeto
               </Text>{" "}
+              de Vida
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            Graduado em <strong>Sistema de Informação</strong>, Pós Graduando em Engenharia de Redes e Análise de Dados e Formado em <strong>Desenvolvimento Full Stack</strong>. <br/><br/> Após várias experiências na área de tecnologia, decidi me aprofundar no <strong>Desenvolvimento de Software</strong>. Para essa nova etapa, escolhi a Kenzie Academy Brasil.
+            <br/>É apenas o inicio de uma grande jornada. Venha fazer parte dela!
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Acessar Projetos
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
-              </Button>
+              {/* <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
+                Código do portfolio
+              </Button> */}
               <Button
                 color="grey5"
                 as="a"
@@ -90,12 +91,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns dos meus{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  últimos projetos
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
