@@ -1,0 +1,16 @@
+<svg width="546" height="2084" viewBox="0 0 546 2084" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.9">
+        <g id="projeto-imagem">
+          <image href="../projects/geekword.png" x="0" y="0" width="602.891" height="350" transform="matrix(0.866025 0.5 -2.20305e-08 1 12 10)"/>
+          <image href="../projects/KenzieHub.png" x="0" y="350" width="602.891" height="338" transform="matrix(0.866025 0.5 -2.20305e-08 1 12 10)"/>
+          <image href="../projects/mini-gente.png" x="0" y="688" width="602.891" height="333" transform="matrix(0.866025 0.5 -2.20305e-08 1 12 10)"/>
+	        <image href="../projects/socialhub.png" x="0" y="1021" width="602.891" height="387" transform="matrix(0.866025 0.5 -2.20305e-08 1 12 10)"/>
+          <image href="../projects/montyhall.png" x="0" y="1408" width="602.891" height="337" transform="matrix(0.866025 0.5 -2.20305e-08 1 12 10)"/>
+          <image href="../projects/twitterUi.png" x="0" y="1745" width="602.891" height="339" transform="matrix(0.866025 0.5 -2.20305e-08 1 12 10)"/>
+          <image href="../projects/weartake.png" x="0" y="2081" width="602.891" height="393" transform="matrix(0.866025 0.5 -2.20305e-08 1 12 10)"/>
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="0 -2500" dur="30s" repeatCount="indefinite"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

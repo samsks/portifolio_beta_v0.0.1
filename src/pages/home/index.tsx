@@ -41,21 +41,19 @@ export const Home = (): JSX.Element => {
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
                 title={userData.nameUser}
-                width={"48px"}
-                height={"48px"}
+                width={"120px"}
+                height={"120px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4" type="heading4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                Solving Problems
               </Text>{" "}
-              creating and{" "}
+                is my life{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                Project
               </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
